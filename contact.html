@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        div{
+            border: 1px solid black;   
+            
+        }
+        p, input, label, button, textarea, select{
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <a href="./index.html">Home</a>
+    <a href="./education.html">Education</a>
+    <a href="./work.html">Work Experience</a>
+    <a href="#">Contact Me</a>
+    <h1>Contact Me</h1>
+    <div>
+        <p>Enter your info.</p>
+        <label for="Name">Your Name</label><br>
+        <input type="text" name="Name"><br>
+        <label for="E-mail">Your E-mail</label><br>
+        <input type="text" name="E-mail"><br>
+        <label for="Gender">Gender</label><br>
+        <select id="gender" name="Gender"  >
+            
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">others</option>
+        </select><br>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="" cols="30" rows="10"></textarea><br>
+        <button>send</button>
+        <button>clear</button> 
+    </div>
+</body>
+</html>
